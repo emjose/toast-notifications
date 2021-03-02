@@ -18,15 +18,26 @@ font-family: 'Rammetto One', cursive;
 font-family: 'Righteous', cursive;
 font-family: 'Rubik', sans-serif;
 font-family: 'Single Day', cursive;*/
+
+/* font-family: maple-web, sans-serif;
+  font-weight: 700;
+  font-style: normal; */
+
+/* font-family: hwt-gothic-round, sans-serif;
+
+  font-weight: 900;
+
+  font-style: normal; */
+
 * {
   box-sizing: border-box;
 }
 
 #title {
   /* text-transform: uppercase; */
-  font-family: maple-web, sans-serif;
+  font-family: dunkel-sans-medium, sans-serif;
 
-  font-weight: 700;
+  font-weight: 900;
 
   font-style: normal;
   font-size: 4em;
@@ -246,7 +257,7 @@ body {
 /* iPhone 6/7/8 */
 @media screen and (max-width: 420px) {
   #title {
-    font-size: 1.5em;
+    font-size: 1.2em;
     /* align-items: center;
     white-space: nowrap; */
   }
