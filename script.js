@@ -2,22 +2,22 @@ const button = document.getElementById('button')
 const toasts = document.getElementById('toasts')
 
 const messages = [
-    'sea salt and lemon',
-    'cherry tomatoes, basil, balsamic vinegar',
-    'smoked salmon and goat cheese',
-    'buttered corn, cotija cheese, red pepper flakes',
-    'crispy baked cauliflower, diced red onions',
-    'fried egg and ground pepper',
-    'poached eggs and banana peppers',
-    'radishes, jalapenos, scallions, red pepper flakes',
-    'cream cheese and sea salt',
-    'almonds and smoked olive oil',
-    'bacon and goat cheese',
-    'salsa and crushed tortilla chips',
-    'soft boiled egg and curry powder',
-    'strawberries and balsamic vinegar',
-    'feta cheese and scallions',
-    'corn salad and lime'
+    'Sea Salt and Lemon',
+    'Cherry Tomatoes, Basil, Balsamic Vinegar',
+    'Smoked Salmon and Goat Cheese',
+    'Buttered Corn, Cotija Cheese, Red Pepper Flakes',
+    'Crispy Baked Cauliflower, Diced Red Onions',
+    'Fried Egg and Ground Pepper',
+    'Poached Eggs and Banana Peppers',
+    'Radishes, Jalapenos, Scallions, Red Pepper Flakes',
+    'Cream Cheese and Sea Salt',
+    'Almonds and Smoked Olive Oil',
+    'Bacon and Goat Cheese',
+    'Salsa and Crushed Tortilla Chips',
+    'Soft Boiled Egg and Curry Powder',
+    'Strawberries and Balsamic Vinegar',
+    'Feta Cheese and Scallions',
+    'Corn Salad and Lime'
 ]
 
 const types = ['info', 'success', 'error']
@@ -36,7 +36,7 @@ function createNotification(message = null, type = null) {
 // 6 seconds
     setTimeout(() => {
         notif.remove()
-    }, 4000)
+    }, 400000000)
 }
 
 function getRandomMessage() {

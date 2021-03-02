@@ -34,13 +34,11 @@ font-family: 'Single Day', cursive;*/
 }
 
 #title {
-  /* text-transform: uppercase; */
   font-family: dunkel-sans-medium, sans-serif;
-
   font-weight: 900;
-
   font-style: normal;
-  font-size: 4em;
+
+  font-size: 3.5em;
   color: #ffffff;
   white-space: nowrap;
   letter-spacing: 1px;
@@ -57,8 +55,11 @@ font-family: 'Single Day', cursive;*/
 
 body {
   background-color: white;
-  font-family: "Noto Sans HK", sans-serif;
+  font-family: myriad-pro, sans-serif;
+
   font-weight: 700;
+
+  font-style: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,23 +71,22 @@ body {
 
 .btn {
   position: relative;
-  margin-top: -10px;
+  margin-top: -20px;
   /* width: 100px; */
   /* border: 3px solid green; */
-  font-family: maple-web, sans-serif;
+  font-family: myriad-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
 
   background-color: #ffffff;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  padding: 0.9rem;
-  width: 9em;
+  padding: 0.3em;
+  width: 6.5em;
   border-radius: 7px;
   border: none;
   cursor: pointer;
-  text-transform: uppercase;
-  font-size: 1.75em;
+  font-size: 2em;
   letter-spacing: 2px;
   justify-content: center;
   align-items: center;
@@ -119,31 +119,32 @@ body {
 .toast {
   background-color: #fff;
   border-radius: 7px;
-  padding: 0.75rem 1.5rem;
-  margin: 0.5rem;
-  width: 24em;
-  font-size: 1.1em;
+  padding: 0.8em 1em;
+  margin: 0.5em;
+  width: 18.5em;
+  font-size: 1.3em;
   letter-spacing: 0.65px;
   text-align: center;
-  text-transform: uppercase;
   background: rgba(255, 246, 217, 0.8);
   box-shadow: inset rgba(129, 129, 129, 0.75) -2px -2px 3px,
     inset rgba(255, 255, 255) 2px 2px 2px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(1px);
   /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
+/* #d72301 */
+
 .toast.info {
-  color: #d72301;
+  color: #f86b29;
 }
 
 .toast.success {
-  color: #d72301;
+  color: #e22904;
 }
 
 .toast.error {
-  color: #d72301;
+  color: rgb(64, 160, 1);
 }
 
 .video-container {
@@ -181,6 +182,23 @@ body {
   filter: brightness(115%);
 }
 
+/* iPad pro */
+@media screen and (max-width: 1024px) {
+  #title {
+    font-size: 2.5em;
+    /* align-items: center;
+    white-space: nowrap; */
+  }
+
+  .btn {
+    margin-top: -10px;
+  }
+
+  #toasts {
+    top: 20%;
+  }
+}
+
 @media screen and (max-width: 992px) {
   #title {
     font-size: 2.5em;
@@ -195,22 +213,24 @@ body {
   .btn {
     justify-content: center;
     align-items: center;
+    padding: 0.4em;
+    width: 6.3em;
+    font-size: 1.8em;
   }
 
   .toast {
     background-color: #fff;
     border-radius: 7px;
-    padding: 0.75rem 1.5rem;
-    margin: 0.5rem;
-    width: 20em;
-    font-size: 1em;
+    padding: 0.8em 1em;
+    margin: 0.5em;
+    width: 18.4em;
+    font-size: 1.1em;
     letter-spacing: 0.65px;
     text-align: center;
-    text-transform: uppercase;
     background: rgba(255, 246, 217, 0.8);
     box-shadow: inset rgba(129, 129, 129, 0.75) -2px -2px 3px,
       inset rgba(255, 255, 255) 2px 2px 2px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(1px);
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
   }
@@ -224,31 +244,30 @@ body {
 
   .btn {
     margin-top: -5px;
-    padding: 0.9rem;
-    width: 10em;
-    font-size: 1em;
     justify-content: center;
     align-items: center;
+    padding: 0.4em;
+    width: 6.3em;
+    font-size: 1.8em;
   }
 
   #toasts {
-    top: 15%;
+    top: 18%;
   }
 
   .toast {
     background-color: #fff;
     border-radius: 7px;
-    padding: 0.75rem 1.5rem;
-    margin: 0.5rem;
-    width: 16em;
-    font-size: 0.9em;
+    padding: 0.7em 0.9em;
+    margin: 0.4em;
+    width: 17.5em;
+    font-size: 1em;
     letter-spacing: 0.65px;
     text-align: center;
-    text-transform: uppercase;
     background: rgba(255, 246, 217, 0.8);
     box-shadow: inset rgba(129, 129, 129, 0.75) -2px -2px 3px,
       inset rgba(255, 255, 255) 2px 2px 2px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(1px);
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
   }
@@ -264,11 +283,11 @@ body {
 
   .btn {
     margin-top: -5px;
-    padding: 0.9rem;
-    width: 10em;
-    font-size: 1em;
     justify-content: center;
     align-items: center;
+    padding: 0.4em;
+    width: 6.2em;
+    font-size: 1.4em;
   }
 
   #toasts {
@@ -278,17 +297,16 @@ body {
   .toast {
     background-color: #fff;
     border-radius: 7px;
-    padding: 0.7rem 1.25rem;
-    margin: 0.5rem;
+    padding: 0.7em 1.25em;
+    margin: 0.5em;
     width: 14em;
     font-size: 0.8em;
     letter-spacing: 0.65px;
     text-align: center;
-    text-transform: uppercase;
     background: rgba(255, 246, 217, 0.8);
     box-shadow: inset rgba(129, 129, 129, 0.75) -2px -2px 3px,
       inset rgba(255, 255, 255) 2px 2px 2px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(1px);
   }
 }
@@ -303,11 +321,11 @@ body {
 
   .btn {
     margin-top: 1px;
-    padding: 0.9rem;
-    width: 9em;
-    font-size: 0.8em;
     justify-content: center;
     align-items: center;
+    padding: 0.4em;
+    width: 6.3em;
+    font-size: 1em;
   }
 
   #toasts {
@@ -317,17 +335,16 @@ body {
   .toast {
     background-color: #fff;
     border-radius: 7px;
-    padding: 0.6rem 1.1rem;
-    margin: 0.5rem;
-    width: 14em;
-    font-size: 0.5em;
+    padding: 0.7em 1.25em;
+    margin: 0.5em;
+    width: 13.5em;
+    font-size: 0.7em;
     letter-spacing: 0.65px;
     text-align: center;
-    text-transform: uppercase;
     background: rgba(255, 246, 217, 0.8);
     box-shadow: inset rgba(129, 129, 129, 0.75) -2px -2px 3px,
       inset rgba(255, 255, 255) 2px 2px 2px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(1px);
   }
 }
