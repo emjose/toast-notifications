@@ -36,7 +36,7 @@ function createNotification(message = null, type = null) {
 // 6 seconds
     setTimeout(() => {
         notif.remove()
-    }, 3500)
+    }, 4000)
 }
 
 function getRandomMessage() {

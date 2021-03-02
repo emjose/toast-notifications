@@ -167,7 +167,7 @@ body {
   min-width: 177.6vh;
   min-height: 100vh;
   transform: translate(-50%, -50%);
-  filter: brightness(110%);
+  filter: brightness(115%);
 }
 
 @media screen and (max-width: 768px) {
