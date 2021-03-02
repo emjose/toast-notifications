@@ -1,13 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 @import url("https://use.typekit.net/eia7dfc.css");
-@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Permanent+Marker&family=Rammetto+One&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&family=Passion+One:wght@400;700&family=Permanent+Marker&family=Rammetto+One&family=Righteous&display=swap");
 
-/* font-family: "Passion One", cursive;
-font-family: "Permanent Marker", cursive;
-font-family: "Rammetto One", cursive;
-font-family: "Righteous", cursive; */
+/* font-family: 'Bowlby One', cursive;
+font-family: 'Passion One', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Rammetto One', cursive;
+font-family: 'Righteous', cursive;*/
 * {
   box-sizing: border-box;
+}
+
+#title {
+  font-family: "Passion One", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4em;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  letter-spacing: 1.5px;
 }
 
 body {
@@ -24,11 +35,11 @@ body {
 
 .btn {
   position: relative;
-  /* top: 75px; */
+  margin-top: -40px;
   /* width: 100px; */
   border: 3px solid green;
   background-color: #ffffff;
-  color: rgba(1, 134, 90, 0.7);
+  color: black;
 
   padding: 1rem;
   border-radius: 5px;
@@ -37,19 +48,11 @@ body {
   /* text-transform: uppercase; */
 
   white-space: normal;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(191, 191, 192, 0.37);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-#title {
-  font-family: "Passion One", cursive;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 4.5rem;
-  color: rgba(1, 134, 90, 0.7);
 }
 
 .btn:focus {
@@ -62,8 +65,8 @@ body {
 
 #toasts {
   position: fixed;
-  top: 120px;
-  left: 10px;
+  top: 25%;
+  right: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -75,24 +78,24 @@ body {
   padding: 1rem 2rem;
   margin: 0.5rem;
   width: 15em;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 8px 32px 0 rgba(191, 191, 192, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(1px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .toast.info {
-  color: rebeccapurple;
+  color: black;
 }
 
 .toast.success {
-  color: green;
+  color: black;
 }
 
 .toast.error {
-  color: red;
+  color: black;
 }
 
 .video-container {
@@ -127,4 +130,16 @@ body {
   min-width: 177.6vh;
   min-height: 100vh;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+  #title {
+    font-size: 2em;
+    /* align-items: center;
+    white-space: nowrap; */
+  }
+
+  .btn {
+    margin-top: -10px;
+  }
 }
