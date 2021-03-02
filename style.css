@@ -124,15 +124,15 @@ body {
 }
 
 .toast.info {
-  color: black;
+  color: #d72301;
 }
 
 .toast.success {
-  color: black;
+  color: #d72301;
 }
 
 .toast.error {
-  color: black;
+  color: #d72301;
 }
 
 .video-container {
