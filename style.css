@@ -38,7 +38,7 @@ font-family: 'Single Day', cursive;*/
   font-weight: 900;
   font-style: normal;
 
-  font-size: 3.5em;
+  font-size: 4em;
   color: #ffffff;
   white-space: nowrap;
   letter-spacing: 1px;
@@ -185,7 +185,7 @@ body {
 /* iPad pro */
 @media screen and (max-width: 1024px) {
   #title {
-    font-size: 2.5em;
+    font-size: 3em;
     /* align-items: center;
     white-space: nowrap; */
   }
@@ -195,7 +195,7 @@ body {
   }
 
   #toasts {
-    top: 20%;
+    top: 22%;
   }
 }
 
