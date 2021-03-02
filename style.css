@@ -1,29 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 @import url("https://use.typekit.net/eia7dfc.css");
-@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&family=Passion+One:wght@400;700&family=Permanent+Marker&family=Rammetto+One&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bowlby+One&family=Candal&family=Chango&family=Heebo:wght@600;700&family=Lalezar&family=Lexend+Mega&family=Lexend+Peta&family=Noto+Sans+HK:wght@500;700&family=Passion+One:wght@400;700&family=Permanent+Marker&family=Ramabhadra&family=Rammetto+One&family=Righteous&family=Rubik:wght@500;600&family=Single+Day&display=swap");
 
-/* font-family: 'Bowlby One', cursive;
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Bowlby One', cursive;
+font-family: 'Candal', sans-serif;
+font-family: 'Chango', cursive;
+font-family: 'Heebo', sans-serif;
+font-family: 'Lalezar', cursive;
+font-family: 'Lexend Mega', sans-serif;
+font-family: 'Lexend Peta', sans-serif;
+font-family: 'Noto Sans HK', sans-serif;
 font-family: 'Passion One', cursive;
 font-family: 'Permanent Marker', cursive;
+font-family: 'Ramabhadra', sans-serif;
 font-family: 'Rammetto One', cursive;
-font-family: 'Righteous', cursive;*/
+font-family: 'Righteous', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Single Day', cursive;*/
 * {
   box-sizing: border-box;
 }
 
 #title {
-  font-family: "Passion One", cursive;
-  font-weight: 800;
+  /* text-transform: uppercase; */
+  font-family: maple-web, sans-serif;
+
+  font-weight: 700;
+
   font-style: normal;
-  font-size: 4em;
+  font-size: 2.75em;
   color: rgb(255, 255, 255);
   white-space: nowrap;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 body {
   background-color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Noto Sans HK", sans-serif;
+  font-weight: 700;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,16 +52,18 @@ body {
   position: relative;
   margin-top: -40px;
   /* width: 100px; */
-  border: 3px solid green;
+  /* border: 3px solid green; */
   background-color: #ffffff;
   color: black;
-
+  font-weight: bold;
   padding: 1rem;
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  /* text-transform: uppercase; */
-
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.75px;
+  text-align: center;
   white-space: normal;
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(191, 191, 192, 0.37);
@@ -79,12 +96,12 @@ body {
   margin: 0.5rem;
   width: 20em;
   font-size: 1em;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.65px;
   text-align: center;
-  /* font-variant: small-caps; */
-  background: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.6);
   box-shadow: 0 8px 32px 0 rgba(191, 191, 192, 0.37);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(1px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -92,17 +109,14 @@ body {
 
 .toast.info {
   color: black;
-  font-weight: bold;
 }
 
 .toast.success {
   color: black;
-  font-weight: bold;
 }
 
 .toast.error {
   color: black;
-  font-weight: bold;
 }
 
 .video-container {
