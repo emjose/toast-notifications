@@ -48,7 +48,7 @@ body {
 
 #toasts {
   position: fixed;
-  top: 50px;
+  top: 120px;
   left: 10px;
   display: flex;
   flex-direction: column;
