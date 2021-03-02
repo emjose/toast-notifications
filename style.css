@@ -205,11 +205,10 @@ body {
   }
 }
 
+/* iPad */
 @media screen and (max-width: 768px) {
   #title {
     font-size: 1.65em;
-    /* align-items: center;
-    white-space: nowrap; */
   }
 
   .btn {
@@ -241,6 +240,84 @@ body {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(1px);
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  }
+}
+
+/* iPhone 6/7/8 */
+@media screen and (max-width: 420px) {
+  #title {
+    font-size: 1.5em;
+    /* align-items: center;
+    white-space: nowrap; */
+  }
+
+  .btn {
+    margin-top: -5px;
+    padding: 0.9rem;
+    width: 10em;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #toasts {
+    top: 20%;
+  }
+
+  .toast {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 0.7rem 1.25rem;
+    margin: 0.5rem;
+    width: 14em;
+    font-size: 0.8em;
+    letter-spacing: 0.65px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(255, 246, 217, 0.8);
+    box-shadow: inset rgba(129, 129, 129, 0.75) -2px -2px 3px,
+      inset rgba(255, 255, 255) 2px 2px 2px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+  #title {
+    font-size: 1em;
+    /* align-items: center;
+    white-space: nowrap; */
+  }
+
+  .btn {
+    margin-top: 1px;
+    padding: 0.9rem;
+    width: 9em;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #toasts {
+    top: 15%;
+  }
+
+  .toast {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 0.6rem 1.1rem;
+    margin: 0.5rem;
+    width: 14em;
+    font-size: 0.5em;
+    letter-spacing: 0.65px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(255, 246, 217, 0.8);
+    box-shadow: inset rgba(129, 129, 129, 0.75) -2px -2px 3px,
+      inset rgba(255, 255, 255) 2px 2px 2px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(1px);
   }
 }
 
