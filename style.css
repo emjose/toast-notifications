@@ -24,9 +24,7 @@ font-family: 'Single Day', cursive;*/
   font-style: normal; */
 
 /* font-family: hwt-gothic-round, sans-serif;
-
   font-weight: 900;
-
   font-style: normal; */
 
 * {
@@ -56,14 +54,11 @@ font-family: 'Single Day', cursive;*/
 body {
   background-color: white;
   font-family: myriad-pro, sans-serif;
-
   font-weight: 700;
-
   font-style: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   height: 100vh;
   overflow: hidden;
   margin: 0;
@@ -72,8 +67,6 @@ body {
 .btn {
   position: relative;
   margin-top: -20px;
-  /* width: 100px; */
-  /* border: 3px solid green; */
   font-family: myriad-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -133,6 +126,7 @@ body {
   /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
+/* rgba(255, 246, 217, 0.8); */
 /* #d72301 */
 
 .toast.info {
@@ -186,8 +180,6 @@ body {
 @media screen and (max-width: 1024px) {
   #title {
     font-size: 3em;
-    /* align-items: center;
-    white-space: nowrap; */
   }
 
   .btn {
@@ -202,8 +194,6 @@ body {
 @media screen and (max-width: 992px) {
   #title {
     font-size: 2.5em;
-    /* align-items: center;
-    white-space: nowrap; */
   }
 
   #toasts {
@@ -246,9 +236,9 @@ body {
     margin-top: -5px;
     justify-content: center;
     align-items: center;
-    padding: 0.4em;
-    width: 6.3em;
-    font-size: 1.8em;
+    padding: 0.3em;
+    width: 6.2em;
+    font-size: 1.7em;
   }
 
   #toasts {
@@ -277,17 +267,15 @@ body {
 @media screen and (max-width: 420px) {
   #title {
     font-size: 1.2em;
-    /* align-items: center;
-    white-space: nowrap; */
   }
 
   .btn {
     margin-top: -5px;
     justify-content: center;
     align-items: center;
-    padding: 0.4em;
+    padding: 0.3em;
     width: 6.2em;
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 
   #toasts {
@@ -315,17 +303,15 @@ body {
 @media screen and (max-width: 280px) {
   #title {
     font-size: 1em;
-    /* align-items: center;
-    white-space: nowrap; */
   }
 
   .btn {
     margin-top: 1px;
     justify-content: center;
     align-items: center;
-    padding: 0.4em;
-    width: 6.3em;
-    font-size: 1em;
+    padding: 0.3em;
+    width: 6.2em;
+    font-size: 1.1em;
   }
 
   #toasts {

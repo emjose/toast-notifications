@@ -33,7 +33,7 @@ function createNotification(message = null, type = null) {
 
     toasts.appendChild(notif)
 
-// 6 seconds
+// 3.75 seconds
     setTimeout(() => {
         notif.remove()
     }, 3750)
