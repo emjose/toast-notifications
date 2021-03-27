@@ -36,6 +36,7 @@
 
 ### Day 22: March 3, 2021
 - I completed a tutorial on how to make toast, or pop-up, notifications.
+  
 - I love avocado toast, so the plain toast notifications have been replaced by different toppings to try out.
 
 #
