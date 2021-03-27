@@ -34,7 +34,9 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-<a href=#100days>![Under Construction](Assets/lorem-text.png)</a>
+### Day 22: March 3, 2021
+- I completed a tutorial on how to make toast, or pop-up, notifications.
+- I love avocado toast, so the plain toast notifications have been replaced by different toppings to try out.
 
 #
 
@@ -57,7 +59,7 @@ open index.html
 
 <a href="https://emjose.github.io/toast-notifications/">![Live Site](Assets/inter-live-site.png)</a>  
 
-<a href="https://emjose.github.io/toast-notifications/">![Under Construction](Assets/lorem-live.png)</a>
+<a href="https://emjose.github.io/toast-notifications/">![Live Site](Assets/022-avocado.gif)</a>
 
 #
 
@@ -65,7 +67,13 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>  
 
-<a href=#resources>![Under Construction](Assets/lorem-text.png)</a>
+- #### [Toast Notification Tutorial](https://www.youtube.com/watch?v=8GPPJpiLqHk&t=547s) by [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA) 
+  
+- #### [Pexels - Free Stock Video Footage](https://www.pexels.com/videos/)
+  
+- #### [Coverr - Free Stock Video Footage](https://coverr.co/)
+
+- #### [Google Fonts](https://fonts.google.com/)
 
 #
 
