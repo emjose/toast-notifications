@@ -75,6 +75,8 @@ open index.html
 
 - #### [Google Fonts](https://fonts.google.com/)
 
+- #### [11 Easy Ways to Fancy Up Your Avocado Toast](https://www.thekitchn.com/11-easy-ways-to-fancy-up-your-avocado-toast-219143)
+
 #
 
 <p id="lets-connect"><p>
