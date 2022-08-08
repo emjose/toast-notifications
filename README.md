@@ -46,13 +46,13 @@
 
 <a href=#installation>![Installation](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389842/Readme%20Headers/inter-installation_j9ixlq.png)</a>
 
-#### Git clone and cd into the repo folder:
+#### 1. Git clone and cd into the repo folder:
 
 ```console
 git clone git@github.com:emjose/toast-notifications.git && cd toast-notifications
 ```
 
-#### Run the command:
+#### 2. Run the command:
 
 ```console
 open index.html
@@ -73,12 +73,15 @@ open index.html
 <a href=#resources>![Resources](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314247/Readme%20Headers/inter-resources_ncevbw.png)</a>
 
 -   #### [Toast Notification Tutorial](https://www.youtube.com/watch?v=8GPPJpiLqHk&t=547s) by [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)
+
 -   #### [Pexels - Free Stock Video Footage](https://www.pexels.com/videos/)
+
 -   #### [Coverr - Free Stock Video Footage](https://coverr.co/)
 
 -   #### [Google Fonts](https://fonts.google.com/)
 
 -   #### [11 Easy Ways to Fancy Up Your Avocado Toast](https://www.thekitchn.com/11-easy-ways-to-fancy-up-your-avocado-toast-219143)
+
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
 
 #
