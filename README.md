@@ -28,6 +28,8 @@
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -39,6 +41,8 @@
 -   I completed a tutorial on how to make toast, or pop-up, notifications.
 
 -   I love avocado toast, so the plain toast notifications have been replaced by different toppings to try out.
+
+<br>
 
 #
 
@@ -58,6 +62,8 @@ git clone git@github.com:emjose/toast-notifications.git && cd toast-notification
 open index.html
 ```
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -65,6 +71,12 @@ open index.html
 <a href="https://emjose.github.io/toast-notifications/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://emjose.github.io/toast-notifications/">![Live Site](Assets/022-avocado.gif)</a>
+
+• **[Avocado Toast Notifications](https://emjose.github.io/toast-notifications/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+• 16 avocado toast toppings can be generated as notifications, with a [`setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout) of 3.75 seconds.
+
+<br>
 
 #
 
@@ -83,6 +95,8 @@ open index.html
 -   #### [11 Easy Ways to Fancy Up Your Avocado Toast](https://www.thekitchn.com/11-easy-ways-to-fancy-up-your-avocado-toast-219143)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 
