@@ -29,8 +29,8 @@
 			"type": "image/png"
 		}
 	],
-	"theme_color": "#FFFFFF",
-	"background_color": "#FFFFFF",
+	"theme_color": "#24490c",
+	"background_color": "#24490c",
 	"display": "standalone",
 	"lang": "en-US",
 	"id": "https://emjose.github.io/toast-notifications/",
